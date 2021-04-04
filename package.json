@@ -1,0 +1,25 @@
+{
+  "name": "320-connect-frontend-contract-bsc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate-development": "truffle migrate --reset --network development",
+    "migrate-bsc-testnet": "truffle migrate --reset --network bscTestnet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "identicon.js": "^2.3.3"
+  }
+}
